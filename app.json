@@ -36,7 +36,9 @@
           "microphonePermission": "Allow $(Detect4Enhance) to access your microphone",
           "recordAudioAndroid": true
         }
-      ]
+      ],
+      "react-native-fast-tflite",
+      "expo-asset"
     ],
     "extra": {
       "eas": {
