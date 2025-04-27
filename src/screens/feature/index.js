@@ -15,7 +15,6 @@ export default function FeatureScreen() {
         { id: 2, name: 'Reminder', icon: 'clock', screen: 'ReminderScreen' },
         { id: 3, name: 'Profile', icon: 'user', screen: null },
         { id: 4, name: 'Settings', icon: 'settings', screen: null },
-     
     ];
 
     // Function to render each feature item
