@@ -16,7 +16,7 @@ export default function Home() {
             <View style={styles.parentView}>
                 <CustomHeader navigation={navigation} />
                 <View style={styles.itemContainer}>
-                    <LottieView style={{ width: 200, height: 200 }} source={require('./../../assets/Animation - 1723300983385.json')} autoPlay loop />
+                    <LottieView style={{ width: 200, height: 200 }} source={require('../../../assets/Animation - 1723300983385.json')} autoPlay loop />
                     <Text style={styles.title}>Detect4Enhance</Text>
                     <Text style={styles.des}>Classroom Pulse is a groundbreaking mobile app that uses facial expression detection to measure students' emotions and engagement in real-time.</Text>
                 </View>

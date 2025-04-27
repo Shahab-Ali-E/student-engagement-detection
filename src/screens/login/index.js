@@ -97,7 +97,7 @@ export default function Login() {
     <ScreenWrapper statusBarColor={AppColors.primary} statusBarStyle="light" scrollType='keyboard'>
       <View style={styles.container}>
 
-        <LottieView style={{ width: 210, height: 210, }} source={require('../../assets/Animation - 1723291367748.json')} autoPlay loop />
+        <LottieView style={{ width: 210, height: 210, }} source={require('../../../assets/Animation - 1723291367748.json')} autoPlay loop />
         <View style={styles.inputContainer}>
           <View style={{ flexDirection: 'row' }}>
             <Fontisto name="email" size={20} color="black" />

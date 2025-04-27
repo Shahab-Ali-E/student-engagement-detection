@@ -86,7 +86,7 @@ export default function Register() {
   return (
     <ScreenWrapper statusBarColor={AppColors.primary} statusBarStyle="light" scrollType='keyboard'>
       <View style={styles.container}>
-        <LottieView style={{ width: 210, height: 210, }} source={require('../../assets/Animation - 1723292982382.json')} autoPlay loop />
+        <LottieView style={{ width: 210, height: 210, }} source={require('../../../assets/Animation - 1723292982382.json')} autoPlay loop />
         <Text style={styles.title}>Create an Account</Text>
 
         <View style={styles.inputContainer}>
